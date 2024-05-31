@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "incremental": true,
+      "jsx": "preserve",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "maxNodeModuleJsDepth": 10,
+      "module": "esnext",
+      "moduleResolution": "bundler",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "strict": true,
+      "noEmit": true,
+      "target": "es2021",
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "baseUrl": ".",     
+    },
+    "exclude": ["**/node_modules", "**/.*/"],
+  }
+  

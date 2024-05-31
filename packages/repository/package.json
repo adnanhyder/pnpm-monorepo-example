@@ -1,0 +1,31 @@
+{
+    "name": "@boost/repository",
+    "description": "Data stores and models.",
+    "main": "dist/repository.umd.js",
+    "module": "dist/repository.es.js",
+    "types": "dist/types/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build && vue-tsc --project tsconfig.json",
+        "preview": "vite preview",
+        "lint": "eslint .",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+    },
+    "peerDependencies": {
+        "pinia": "^2.1.7",
+        "vue": "^3.4.21"
+	},
+    "devDependencies": {
+        "@boost/eslint-config-boost": "workspace:^",
+        "@types/node": "^20.12.5",
+        "@vue/tsconfig": "^0.5.1",
+        "eslint": "^8.57.0",
+        "prettier": "^3.2.5",
+        "typescript": "^5.4.4",
+        "vue-tsc": "^2.0.19",
+        "vite": "^5.2.8"
+    }
+}

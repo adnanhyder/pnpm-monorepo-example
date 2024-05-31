@@ -1,0 +1,21 @@
+{
+  "name": "boost.starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Private",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0",
+		"@tsconfig/node20": "^20.1.2",
+		"@types/node": "20.8.10",
+		"@vitejs/plugin-vue": "^4.4.0",
+    "vue-tsc": "^2.0.11",
+    "vite": "^5.2.8"
+  }
+}
